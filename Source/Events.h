@@ -8,7 +8,7 @@ class Events
 {
 	public:
 		Events();
-		void gameEvents(SDL_Event &event,Movement &move,Inventory &i);
+		void gameEvents(SDL_Event &event,Movement &move,Inventory &i,Item item[]);
 		bool getGameState();
 	private:
 		bool gameRunning;

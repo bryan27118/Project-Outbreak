@@ -12,12 +12,14 @@ class TextureList
 
 		void intTextureList();
 		unsigned int getTile(int number);
+		unsigned int getItem(int number);
 		unsigned int getPlayerTex();
 		unsigned int getInventory();
 		GLuint loadTexture( const std::string &fileName );
 
 	private:
 		unsigned int tile[4];
+		unsigned int item[10];
 		unsigned int playerTexture;
 		unsigned int inventory;
 };

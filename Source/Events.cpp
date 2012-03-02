@@ -8,7 +8,7 @@ Events::Events()
 	gameRunning = true;
 }
 
-void Events::gameEvents(SDL_Event &event,Movement &move,Inventory &i)
+void Events::gameEvents(SDL_Event &event,Movement &move,Inventory &i,Item item[])
 {
 	while(SDL_PollEvent(&event))
 	{
@@ -55,6 +55,9 @@ void Events::gameEvents(SDL_Event &event,Movement &move,Inventory &i)
 					break;
 				case SDLK_e:
 					i.toggleDisplayState();
+					break;
+				case SDLK_q:
+					i.spawnItem(item,0,100,100);
 					break;
 			}
 			break;

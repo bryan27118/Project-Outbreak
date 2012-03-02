@@ -37,6 +37,7 @@ void TextureList::intTextureList()
 	tile[1] = loadTexture("Images/tile1.png");
 	tile[2] = loadTexture("Images/tile2_1.png");
 	tile[3] = loadTexture("Images/tile2_2.png");
+	item[0] = loadTexture("Images/Shotgun.png");
 	playerTexture = loadTexture("Images/Player.png");
 	inventory = loadTexture("Images/Inventory.png");
 }
@@ -45,6 +46,10 @@ void TextureList::intTextureList()
 unsigned int TextureList::getTile(int number)
 {
 	return tile[number];
+}
+unsigned int TextureList::getItem(int number)
+{
+	return item[number];
 }
 unsigned int TextureList::getInventory()
 {

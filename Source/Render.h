@@ -10,7 +10,7 @@ class Render
 {
 	public:
 		Render();
-		void renderEntities(Screen screen,TextureList tl, Grid grid,Player player,Inventory i);
+		void renderEntities(Screen screen,TextureList tl, Grid grid,Player player,Inventory i,Item item[]);
 
 	private:
 

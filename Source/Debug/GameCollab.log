@@ -1,21 +1,35 @@
-﻿Build started 2/28/2012 1:31:16 AM.
+﻿Build started 3/1/2012 10:50:32 PM.
      1>Project "C:\Users\Bryan\Desktop\GameStuff\Source\GameCollab.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\GameCollab.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\GameCollab.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Grid.cpp Items.cpp Render.cpp TextureList.cpp main.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Events.cpp Inventory.cpp Render.cpp main.cpp
          main.cpp
-         TextureList.cpp
-         Items.cpp
-         Generating Code...
-         Skipping... (no relevant changes detected)
          Render.cpp
-         Grid.cpp
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(62): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(62): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(63): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(63): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(64): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(64): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(86): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(90): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(90): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(91): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(91): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(93): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\bryan\desktop\gamestuff\source\render.cpp(93): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         Inventory.cpp
+         Events.cpp
+         Generating Code...
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bryan\Desktop\GameStuff\Source\Debug\GameCollab.exe" /NOLOGO SDL.lib SDLmain.lib opengl32.lib SDL_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GameCollab.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Bryan\Desktop\GameStuff\Source\Debug\GameCollab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Bryan\Desktop\GameStuff\Source\Debug\GameCollab.lib" /MACHINE:X86 Debug\Events.obj
          Debug\Grid.obj
          Debug\Inventory.obj
-         Debug\Items.obj
          Debug\main.obj
          Debug\Movement.obj
          Debug\Player.obj
@@ -34,4 +48,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.24
+Time Elapsed 00:00:02.42

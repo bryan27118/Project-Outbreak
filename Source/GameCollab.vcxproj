@@ -14,7 +14,6 @@
     <ClCompile Include="Events.cpp" />
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="Inventory.cpp" />
-    <ClCompile Include="Items.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Movement.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -25,7 +24,6 @@
   <ItemGroup>
     <ClInclude Include="Events.h" />
     <ClInclude Include="Inventory.h" />
-    <ClInclude Include="Items.h" />
     <ClInclude Include="Movement.h" />
     <ClInclude Include="Render.h" />
     <ClInclude Include="Grid.h" />
@@ -37,6 +35,7 @@
     <None Include="Images\ben.PNG" />
     <None Include="Images\Inventory.png" />
     <None Include="Images\Player.png" />
+    <None Include="Images\Shotgun.png" />
     <None Include="Images\tile2.png" />
     <None Include="Images\tile2_1.png" />
     <None Include="Images\tile2_2.png" />

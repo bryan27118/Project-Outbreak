@@ -18,6 +18,7 @@ int main( int argc, char* args[] )
 	TextureList tl;
 	Player player;
 	Inventory i;
+	Item item[100];
 	Events events;
 	Movement move;
 	Grid grid;
@@ -28,12 +29,16 @@ int main( int argc, char* args[] )
     //Start SDL
     SDL_Init(SDL_INIT_EVERYTHING);
 
+	item[i.getItems()].setItemId(0);
+	item[i.getItems()].setItemX(100);
+	item[i.getItems()].setItemY(100);
+
 	//Main Game Loop
 	while(events.getGameState())
 	{
 		start = SDL_GetTicks();
 		//Events
-		events.gameEvents(event,move,i);
+		events.gameEvents(event,move,i,item);
 
 		//Logic
 		if(i.getDisplayState() == false){
@@ -41,7 +46,7 @@ int main( int argc, char* args[] )
 		}
 
 		//Rendering
-		render.renderEntities(screen, tl ,grid,player,i);
+		render.renderEntities(screen, tl ,grid,player,i,item);
 
 		SDL_GL_SwapBuffers();
 

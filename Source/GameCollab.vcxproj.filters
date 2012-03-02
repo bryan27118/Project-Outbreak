@@ -48,9 +48,6 @@
     <ClCompile Include="Player.cpp">
       <Filter>Source Files\Player</Filter>
     </ClCompile>
-    <ClCompile Include="Items.cpp">
-      <Filter>Source Files\Player</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -77,9 +74,6 @@
     <ClInclude Include="Inventory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Items.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="tile0.png">
@@ -104,6 +98,9 @@
       <Filter>Images</Filter>
     </None>
     <None Include="Images\Inventory.png">
+      <Filter>Images</Filter>
+    </None>
+    <None Include="Images\Shotgun.png">
       <Filter>Images</Filter>
     </None>
   </ItemGroup>
