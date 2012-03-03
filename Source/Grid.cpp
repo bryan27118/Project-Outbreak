@@ -58,10 +58,10 @@ void Grid::renderGrid(TextureList tex)
 					break;
 			}
 			glBegin(GL_QUADS);
-			glVertex3f(xRender*i,yRender*j,0);//top Left corner
-			glVertex3f(xRender*i+xRender,yRender*j,0);//top right corner
-			glVertex3f(xRender*i+xRender,yRender*j+yRender,0);//bottom right corner
-			glVertex3f(xRender*i,yRender*j+yRender,0);//bottom left corner
+			glTexCoord2d(0,0); glVertex3f(xRender*i,yRender*j,0);//top Left corner
+			glTexCoord2d(1,0); glVertex3f(xRender*i+xRender,yRender*j,0);//top right corner
+			glTexCoord2d(1,1); glVertex3f(xRender*i+xRender,yRender*j+yRender,0);//bottom right corner
+			glTexCoord2d(0,1); glVertex3f(xRender*i,yRender*j+yRender,0);//bottom left corner
 			glEnd();
 		}
 	}
